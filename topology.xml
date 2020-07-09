@@ -324,12 +324,12 @@ ln -s /var/run/resolvconf/interface/eth0.dhclient /var/run/resolvconf/resolv.con
     <configuration name="sdturl" value="tcp://127.0.0.1:50000/"/>
   </session_options>
   <session_metadata>
+    <configuration name="annotation a1" value="{iconcoords {95.0 110.0}} {type text} {label {CLIENTS}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {canvas c1}"/>
+    <configuration name="annotation a2" value="{iconcoords {656.0 108.0}} {type text} {label {DHCP/DNS SERVER}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {canvas c1}"/>
+    <configuration name="annotation a3" value="{type text} {iconcoords {694.0 184.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a4" value="{iconcoords {630.0 316.0}} {type text} {label {FAKE DHCP/DNS SERVER}} {labelcolor black} {fontfamily {Arial}} {fontsize {12}} {canvas c1}"/>
     <configuration name="canvas c1" value="{name {Canvas1}}"/>
     <configuration name="global_options" value="interface_names=yes ip_addresses=yes ipv6_addresses=yes node_labels=yes link_labels=yes show_api=no background_images=no annotations=yes grid=yes traffic_start=0"/>
-    <configuration name="annotation a1" value="{iconcoords {95.0 110.0}} {type text} {label {CLIENTS}} {labelcolor black} {fontfamily {Arial}} {fontsize 12} {canvas c1}"/>
-    <configuration name="annotation a2" value="{iconcoords {656.0 108.0}} {type text} {label {DHCP/DNS SERVER}} {labelcolor black} {fontfamily {Arial}} {fontsize 12} {canvas c1}"/>
-    <configuration name="annotation a3" value="{type text} {iconcoords {694.0 184.0}} {label {}} {canvas c1}"/>
-    <configuration name="annotation a4" value="{iconcoords {630.0 316.0}} {type text} {label {FAKE DHCP/DNS SERVER}} {labelcolor black} {fontfamily {Arial}} {fontsize 12} {canvas c1}"/>
   </session_metadata>
   <default_services>
     <node type="mdr">

@@ -445,7 +445,7 @@ annotation a1 {
     label {CLIENTS}
     labelcolor black
     fontfamily {Arial}
-    fontsize 12
+    fontsize {12}
     canvas c1
 }
 
@@ -455,7 +455,7 @@ annotation a2 {
     label {DHCP/DNS SERVER}
     labelcolor black
     fontfamily {Arial}
-    fontsize 12
+    fontsize {12}
     canvas c1
 }
 
@@ -472,7 +472,7 @@ annotation a4 {
     label {FAKE DHCP/DNS SERVER}
     labelcolor black
     fontfamily {Arial}
-    fontsize 12
+    fontsize {12}
     canvas c1
 }
 
